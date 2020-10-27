@@ -22,7 +22,7 @@ module.exports = {
           }],
           '@babel/preset-react',
         ],
-        
+        plugins: ['react-hot-loader/babel'],
       },
       exclude: path.join(__dirname, 'node_modules'),
     }],
